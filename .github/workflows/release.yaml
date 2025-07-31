@@ -61,7 +61,7 @@ jobs:
           event_type="trigger-workflow"
           lib_name="jupyter"
           lib_vers=${{ github.event.release.tag_name }}
-          branch=$(git rev-parse --abbrev-ref HEAD)
+          branch=$(git branch -r --contains HEAD | head -1 | sed 's/.*\///')
 
           # Define the repositories to trigger
           repos=("digitalhub-serverless" )
