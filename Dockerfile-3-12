@@ -1,7 +1,7 @@
 # SPDX-FileCopyrightText: © 2025 DSLab - Fondazione Bruno Kessler
 #
 # SPDX-License-Identifier: Apache-2.0
-FROM jupyter/minimal-notebook:python-3.11
+FROM jupyter/minimal-notebook:python-3.12
 
 LABEL org.opencontainers.image.source=https://github.com/scc-digitalhub/jupyter-notebook-custom-image
 
