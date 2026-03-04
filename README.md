@@ -14,7 +14,7 @@ Dockerfile parameters can be set to customize the image. Parameters refers to PY
 - `ver_container`: Version of the container runtime to use.
 - `ver_modelserve`: Version of the model serving runtime to use.
 - `ver_dbt`: Version of the dbt runtime to use.
-- `ver_kfp`: Version of the kfp runtime to use.
+- `ver_hera`: Version of the hera runtime to use.
 
 ## Development
 
